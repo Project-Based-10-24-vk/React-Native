@@ -1,0 +1,25 @@
+{
+  "description": "Please, introduce yourself be adding your name and aim role on a platform",
+  "enterYourName": "Enter your name:",
+  "detailedTutorDescription": "Sign up as tutor and start your teaching journey",
+  "detailedStudentDescription":"Sign up as student and start your learning journey",
+  "chooseRole": "Choose your aim role:",
+  "next": "Next",
+  "becomeStudent": "Become a student",
+  "becomeTutor": "Become a tutor",
+  "signUp":"Sign up",
+  "signUpGoogle":"Sign up with Google",
+  "haveAccount":"Already have an account?",
+  "login":"Log in",
+  "email":"Email",
+  "password":"Password",
+  "confirmPassword":"Confirm password",
+  "TermsAndPrivacy":{
+    "section1":"I agree to the ",
+    "section2":"Terms ",
+    "section3":"and ",
+    "section4":"Privacy Policy. "
+  },
+  "name": "First name",
+  "lastName" :"Last name"
+}
