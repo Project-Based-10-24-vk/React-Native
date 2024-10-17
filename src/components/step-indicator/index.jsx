@@ -10,6 +10,7 @@ const StepIndicator = ({ screenIndex }) => {
         styles.stepIndicator,
         index === screenIndex ? styles.activeStepIndicator : {}
       ]}
+      testID={`step-indicator${index === screenIndex ? '-active' : '-inactive'}`}
     />
   )
 
