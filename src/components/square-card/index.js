@@ -12,9 +12,13 @@ const SquareCard = ({ data, chooseRole, choosenRole }) => {
     chooseRole(role)
   }
   return (
-    <Pressable onPress={onPress} style={styles.roleBox(choosenRole === role)}>
+    <Pressable
+      onPress={onPress}
+      style={styles.roleBox(choosenRole === role)}
+      testID='square-card-btn'
+    >
       <View style={styles.imageWrapper}>
-        <Image source={image} style={styles.image} />
+        <Image source={image} style={styles.image} testID='square-card-image' />
       </View>
       <PaperText>{t(`signup.${title}`)}</PaperText>
     </Pressable>
